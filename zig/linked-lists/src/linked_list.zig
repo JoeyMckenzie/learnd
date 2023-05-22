@@ -2,6 +2,7 @@ const std = @import("std");
 const pageAllocator = std.heap.page_allocator;
 const testing = std.testing;
 
+// TODO: Might add a doubly linked list example
 pub fn LinkedList(comptime T: type) type {
     return struct {
         const Self = @This();
